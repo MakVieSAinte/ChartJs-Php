@@ -1,0 +1,73 @@
+/*|#MakVie-SAinte|*/
+
+*, *::before, *::after {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+html {
+     font-size: 100%;
+}
+
+body {
+     background-color: #fff;
+     color: #222;
+}
+
+.card {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 1px solid #e3e6f0;
+     border-radius: 0.35rem;
+   }
+
+ .card-body {
+     flex: 1 1 auto;
+     min-height: 1px;
+     padding: 1.25rem;
+   }
+
+  .chart-area {
+     position: relative;
+     height: 20rem;
+     width: 100%;
+   }
+
+   @media (min-width: 768px) {
+     .chart-area {
+       height: 20rem;
+     }
+   }
+   
+   .chart-bar {
+     position: relative;
+     height: 10rem;
+     width: 100%;
+   }
+   
+   @media (min-width: 768px) {
+     .chart-bar {
+       height: 20rem;
+     }
+   }
+   
+   .chart-pie {
+     position: relative;
+     height: 15rem;
+     width: 100%;
+   }
+   
+   @media (min-width: 768px) {
+     .chart-pie {
+       height: calc(20rem - 43px) !important;
+     }
+   }
+
+
+/* 925DEV */
